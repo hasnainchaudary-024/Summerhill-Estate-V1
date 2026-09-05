@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Kuzagali Location ProfileVIB",
+  "description": "A luxury alpine pine mountain monograph and location profile for Kuzagali and Summer Hill Estate with live atmospheric conditions, topographic plot maps, and customizable editorial sections.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

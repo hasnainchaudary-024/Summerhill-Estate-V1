@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #F4F8F5;
+    color: #0F1E16;
+  }
+
+  h1, h2, h3, .font-serif, .editorial-heading {
+    font-family: 'Cinzel', 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+.font-editorial {
+  font-family: 'Cormorant Garamond', 'Newsreader', 'Playfair Display', Georgia, serif;
+}
+
+.font-luxury-display {
+  font-family: 'Cinzel', 'Playfair Display', Georgia, serif;
+}
+
+.font-editorial-display {
+  font-family: 'Playfair Display', 'Cinzel', Georgia, serif;
+}
+
+.font-editorial-sans {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Luxury Pine Gold Gradient and Foil Accents */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #F3D993 0%, #D4AF37 50%, #AA7C11 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pine-gradient-bg {
+  background: linear-gradient(145deg, #091910 0%, #102B1D 50%, #1A402B 100%);
+}
+
+.pine-glow {
+  box-shadow: 0 0 35px -5px rgba(22, 101, 52, 0.25);
+}
+
+.gold-glow {
+  box-shadow: 0 0 30px -5px rgba(212, 175, 55, 0.22);
+}
+
+.gold-border-glow {
+  border-color: rgba(212, 175, 55, 0.4);
+  box-shadow: 0 0 15px -3px rgba(212, 175, 55, 0.15);
+}
+
+/* Custom Luxury Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #EBF2ED;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #A3C2AE;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1B4D3E;
+}
+
